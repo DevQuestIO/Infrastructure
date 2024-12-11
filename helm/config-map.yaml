@@ -3,6 +3,6 @@ kind: ConfigMap
 metadata:
   name: app-config
 data:
-  mongodb_uri: "mongodb+srv://pbajaj0023:q4DI0YTFK4xGr5KQ@cluster0.d0tbe.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+  mongodb_uri: "mongodb+srv://<user_name>:<password>@cluster0.d0tbe.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
   db_name: "devquest"
   environment: "development"
